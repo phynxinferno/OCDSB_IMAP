@@ -4,6 +4,7 @@
 
 <details>
   <summary>How</summary>
+
 1. Clone or otherwise download the repository contents
 
 2. Install the latest [Node.js LTS](https://nodejs.org/en) for your operating system
@@ -37,8 +38,8 @@
     Why
   </summary>
 
-  - Third-party email clients allow you to read email offline, and often have more features and integrate better with your OS than GMail.
+- Third-party email clients allow you to read email offline, and often have more features and integrate better with your OS than GMail.
 
-  - The GMail webapp on OCDSB google accounts essentially functions as a keylogger due to the board's use of [Google Vault](https://support.google.com/vault/answer/2462365?hl=en). This allows the board to read deleted emails, drafts, and even deleted unsaved drafts. This script circumvents the client-side keylogger, though the board will still be able to read your sent emails if you don't [encrypt them with PGP](https://www.openpgp.org/)
+- The GMail webapp on OCDSB google accounts essentially functions as a keylogger due to the board's use of [Google Vault](https://support.google.com/vault/answer/2462365?hl=en). This allows the board to read deleted emails, drafts, and even deleted unsaved drafts. This script circumvents the client-side keylogger, though the board will still be able to read your sent emails if you don't [encrypt them with PGP](https://www.openpgp.org/)
 
 </details>

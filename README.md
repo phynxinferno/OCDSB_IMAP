@@ -1,6 +1,8 @@
 # OCDSB_IMAP
 
-> Simple translation layer to use enterprise gmail accoutns with IMAP disabled with IMAP-based email clients(e.g. [Thunderbird](https://www.thunderbird.net) or basically any stock mail app)
+> Currently WIP. None of this works yet :3
+
+Simple translation layer to use enterprise gmail accoutns with IMAP disabled with IMAP-based email clients(e.g. [Thunderbird](https://www.thunderbird.net) or basically any stock mail app)
 
 <details>
   <summary>How</summary>

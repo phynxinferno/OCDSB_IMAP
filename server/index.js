@@ -12,3 +12,10 @@ const logger = winston.createLogger({
 const config = require('./config.json');
 
 if(config.enableSecurityWarnings) logger.warn('The server does not implement authentication and should therefore not be exposed to the internet or another untrusted network. See config.json to disable this message.');
+
+const server = net.createServer((socket) => {
+
+    server.listen(config.port, 'localhost', 0, () => {
+        logger.info('Server listening on port ' + config.port);
+    });
+});

@@ -3,6 +3,7 @@
     "fs": "^0.0.1-security",
     "http": "^0.0.1-security",
     "https": "^1.0.0",
+    "mocha": "^10.2.0",
     "net": "^1.0.2",
     "node-fetch": "^3.3.2",
     "winston": "^3.11.0"
